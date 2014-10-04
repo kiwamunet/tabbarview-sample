@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "OTTabBarController.h"
+#import "OTRootViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +18,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [OTRootViewController newInstance];
+    [self.window makeKeyAndVisible];    return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

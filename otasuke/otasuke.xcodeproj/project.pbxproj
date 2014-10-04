@@ -10,11 +10,18 @@
 		8D388B8A19E0485C004E44FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D388B8919E0485C004E44FD /* main.m */; };
 		8D388B8D19E0485C004E44FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D388B8C19E0485C004E44FD /* AppDelegate.m */; };
 		8D388B9019E0485C004E44FD /* otasuke.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D388B8E19E0485C004E44FD /* otasuke.xcdatamodeld */; };
-		8D388B9319E0485C004E44FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D388B9219E0485C004E44FD /* ViewController.m */; };
-		8D388B9619E0485C004E44FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D388B9419E0485C004E44FD /* Main.storyboard */; };
+		8D388B9319E0485C004E44FD /* OTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D388B9219E0485C004E44FD /* OTRootViewController.m */; };
 		8D388B9819E0485C004E44FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D388B9719E0485C004E44FD /* Images.xcassets */; };
 		8D388B9B19E0485C004E44FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D388B9919E0485C004E44FD /* LaunchScreen.xib */; };
 		8D388BA719E0485C004E44FD /* otasukeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D388BA619E0485C004E44FD /* otasukeTests.m */; };
+		8D388BB219E04E77004E44FD /* OTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D388BB119E04E77004E44FD /* OTTabBarController.m */; };
+		8D388BB619E04EE6004E44FD /* OTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D388BB419E04EE6004E44FD /* OTMainViewController.m */; };
+		8D388BB719E04EE6004E44FD /* OTMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D388BB519E04EE6004E44FD /* OTMainViewController.xib */; };
+		8D388BBB19E052C9004E44FD /* UIViewController+OTTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D388BBA19E052C9004E44FD /* UIViewController+OTTransition.m */; };
+		8D388BC419E05525004E44FD /* OTSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D388BC219E05525004E44FD /* OTSettingViewController.m */; };
+		8D388BC519E05525004E44FD /* OTSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D388BC319E05525004E44FD /* OTSettingViewController.xib */; };
+		8D388BCA19E055A3004E44FD /* OTCourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D388BC819E055A3004E44FD /* OTCourceViewController.m */; };
+		8D388BCB19E055A3004E44FD /* OTCourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D388BC919E055A3004E44FD /* OTCourceViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +41,26 @@
 		8D388B8B19E0485C004E44FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D388B8C19E0485C004E44FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8D388B8F19E0485C004E44FD /* otasuke.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = otasuke.xcdatamodel; sourceTree = "<group>"; };
-		8D388B9119E0485C004E44FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8D388B9219E0485C004E44FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8D388B9519E0485C004E44FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D388B9119E0485C004E44FD /* OTRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OTRootViewController.h; path = ../OTRootViewController.h; sourceTree = "<group>"; };
+		8D388B9219E0485C004E44FD /* OTRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OTRootViewController.m; path = ../OTRootViewController.m; sourceTree = "<group>"; };
 		8D388B9719E0485C004E44FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8D388B9A19E0485C004E44FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8D388BA019E0485C004E44FD /* otasukeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otasukeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D388BA519E0485C004E44FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D388BA619E0485C004E44FD /* otasukeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = otasukeTests.m; sourceTree = "<group>"; };
+		8D388BB019E04E77004E44FD /* OTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTTabBarController.h; path = ../OTTabBarController.h; sourceTree = "<group>"; };
+		8D388BB119E04E77004E44FD /* OTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTTabBarController.m; path = ../OTTabBarController.m; sourceTree = "<group>"; };
+		8D388BB319E04EE6004E44FD /* OTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTMainViewController.h; path = ../OTMainViewController.h; sourceTree = "<group>"; };
+		8D388BB419E04EE6004E44FD /* OTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTMainViewController.m; path = ../OTMainViewController.m; sourceTree = "<group>"; };
+		8D388BB519E04EE6004E44FD /* OTMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OTMainViewController.xib; path = ../OTMainViewController.xib; sourceTree = "<group>"; };
+		8D388BB919E052C9004E44FD /* UIViewController+OTTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+OTTransition.h"; sourceTree = "<group>"; };
+		8D388BBA19E052C9004E44FD /* UIViewController+OTTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+OTTransition.m"; sourceTree = "<group>"; };
+		8D388BC119E05525004E44FD /* OTSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTSettingViewController.h; path = ../OTSettingViewController.h; sourceTree = "<group>"; };
+		8D388BC219E05525004E44FD /* OTSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTSettingViewController.m; path = ../OTSettingViewController.m; sourceTree = "<group>"; };
+		8D388BC319E05525004E44FD /* OTSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OTSettingViewController.xib; path = ../OTSettingViewController.xib; sourceTree = "<group>"; };
+		8D388BC719E055A3004E44FD /* OTCourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTCourceViewController.h; sourceTree = "<group>"; };
+		8D388BC819E055A3004E44FD /* OTCourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTCourceViewController.m; sourceTree = "<group>"; };
+		8D388BC919E055A3004E44FD /* OTCourceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTCourceViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +102,10 @@
 		8D388B8619E0485C004E44FD /* otasuke */ = {
 			isa = PBXGroup;
 			children = (
+				8D388BC619E0554B004E44FD /* Controllers */,
+				8D388BB819E052C9004E44FD /* Categories */,
 				8D388B8B19E0485C004E44FD /* AppDelegate.h */,
 				8D388B8C19E0485C004E44FD /* AppDelegate.m */,
-				8D388B9119E0485C004E44FD /* ViewController.h */,
-				8D388B9219E0485C004E44FD /* ViewController.m */,
-				8D388B9419E0485C004E44FD /* Main.storyboard */,
 				8D388B9719E0485C004E44FD /* Images.xcassets */,
 				8D388B9919E0485C004E44FD /* LaunchScreen.xib */,
 				8D388B8E19E0485C004E44FD /* otasuke.xcdatamodeld */,
@@ -120,6 +138,35 @@
 				8D388BA519E0485C004E44FD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D388BB819E052C9004E44FD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8D388BB919E052C9004E44FD /* UIViewController+OTTransition.h */,
+				8D388BBA19E052C9004E44FD /* UIViewController+OTTransition.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8D388BC619E0554B004E44FD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D388B9119E0485C004E44FD /* OTRootViewController.h */,
+				8D388B9219E0485C004E44FD /* OTRootViewController.m */,
+				8D388BB019E04E77004E44FD /* OTTabBarController.h */,
+				8D388BB119E04E77004E44FD /* OTTabBarController.m */,
+				8D388BC719E055A3004E44FD /* OTCourceViewController.h */,
+				8D388BC819E055A3004E44FD /* OTCourceViewController.m */,
+				8D388BC919E055A3004E44FD /* OTCourceViewController.xib */,
+				8D388BC119E05525004E44FD /* OTSettingViewController.h */,
+				8D388BC219E05525004E44FD /* OTSettingViewController.m */,
+				8D388BC319E05525004E44FD /* OTSettingViewController.xib */,
+				8D388BB319E04EE6004E44FD /* OTMainViewController.h */,
+				8D388BB419E04EE6004E44FD /* OTMainViewController.m */,
+				8D388BB519E04EE6004E44FD /* OTMainViewController.xib */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +249,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D388B9619E0485C004E44FD /* Main.storyboard in Resources */,
+				8D388BC519E05525004E44FD /* OTSettingViewController.xib in Resources */,
 				8D388B9B19E0485C004E44FD /* LaunchScreen.xib in Resources */,
+				8D388BCB19E055A3004E44FD /* OTCourceViewController.xib in Resources */,
+				8D388BB719E04EE6004E44FD /* OTMainViewController.xib in Resources */,
 				8D388B9819E0485C004E44FD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,8 +273,13 @@
 			files = (
 				8D388B8D19E0485C004E44FD /* AppDelegate.m in Sources */,
 				8D388B9019E0485C004E44FD /* otasuke.xcdatamodeld in Sources */,
-				8D388B9319E0485C004E44FD /* ViewController.m in Sources */,
+				8D388BBB19E052C9004E44FD /* UIViewController+OTTransition.m in Sources */,
+				8D388BCA19E055A3004E44FD /* OTCourceViewController.m in Sources */,
+				8D388BB619E04EE6004E44FD /* OTMainViewController.m in Sources */,
+				8D388BC419E05525004E44FD /* OTSettingViewController.m in Sources */,
+				8D388B9319E0485C004E44FD /* OTRootViewController.m in Sources */,
 				8D388B8A19E0485C004E44FD /* main.m in Sources */,
+				8D388BB219E04E77004E44FD /* OTTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +302,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8D388B9419E0485C004E44FD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D388B9519E0485C004E44FD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D388B9919E0485C004E44FD /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
